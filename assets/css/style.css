@@ -1,0 +1,35 @@
+/* グリッドレイアウトを使用 */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#calendar {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#days, #dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+#days div, #dates div {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.weekend {
+  background-color: #f0f8ff;
+}
+
+.holiday {
+  background-color: #ffebee;
+}
+
