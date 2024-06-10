@@ -5,4 +5,6 @@ let book = {
 
 let { title: subject, publisher: company } = book;
 console.log(subject);
+//Javaポケットリファレンス
 console.log(company);
+//技術評論社

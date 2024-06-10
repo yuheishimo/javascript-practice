@@ -7,5 +7,8 @@ let book = {
 
 let { title, other, other: { keywd } } = book;
 console.log(title);
+//Javaポケットリファレンス
 console.log(other);
+//keywd: 'Java SE 18', logo: 'logo.jpg'
 console.log(keywd);
+//Java SE 18

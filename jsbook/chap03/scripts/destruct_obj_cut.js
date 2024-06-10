@@ -8,5 +8,8 @@ let price, title, memo;
 ({ price, title, memo = '×' } = book);
 
 console.log(price);
+//2680
 console.log(title);
+//Javaポケットリファレンス
 console.log(memo);
+//x
