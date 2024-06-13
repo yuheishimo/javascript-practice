@@ -4,8 +4,9 @@ const color = document.querySelector('#colorPicker');
 // カラーピッカーを操作したときの一連の動作
 const colorBg = () => {
   // 選択した色を背景色に設定
-  document.body.style.backgroundColor = color.value;
-  
+  document.body.style.backgroundColor = '#ffffff';
+  // document.body.style.backgroundColor = color.value;
+
   // カラーコードを表示
   text.textContent = `カラーコード：${color.value}`;
 }

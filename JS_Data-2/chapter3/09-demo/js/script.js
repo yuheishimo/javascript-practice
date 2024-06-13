@@ -1,9 +1,16 @@
 const text = document.querySelector('#colorText');
+console.log(text.textContent)
 const color = document.querySelector('#colorPicker');
 
 // カラーピッカーを操作したときの一連の動作
-const colorBg = () => {
-  // カラーコードを表示
+//アロー関数
+// const colorBg = () => {
+//   // カラーコードを表示
+//   text.textContent = `カラーコード：${color.value}`;
+// }
+
+//function構文
+function colorBg() {
   text.textContent = `カラーコード：${color.value}`;
 }
 
