@@ -8,7 +8,7 @@ const lists = [
     'fig.jpg',
     'apple.jpg',
 ];
-//console.log(lists.length);
+console.log(lists.length);
 
 for(let i = 0; i < lists.length; i++){
     const content = `<div><img src="images/${lists[i]}" alt=""></div>`;
