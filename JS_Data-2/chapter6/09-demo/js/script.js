@@ -8,6 +8,7 @@ for (let i = 0; i < items.length; i++) {
   const options = {
     duration: 600,
     delay: i * 300,
+    // 再生後の状態を維持
     fill: 'forwards',
   };
   items[i].animate(keyframes, options);
